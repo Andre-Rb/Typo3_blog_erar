@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-11T14:56:22Z" product-name="blog_erar">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="publication_date.description">
+				<source>publicationDate</source>
+			</trans-unit>
+			<trans-unit id="summary.description">
+				<source>summary</source>
+			</trans-unit>
+			<trans-unit id="content.description">
+				<source>content</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="tags.description">
+				<source>tags</source>
+			</trans-unit>
+			<trans-unit id="authors.description">
+				<source>authors</source>
+			</trans-unit>
+			<trans-unit id="categories.description">
+				<source>categories</source>
+			</trans-unit>
+			<trans-unit id="comments.description">
+				<source>comments</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

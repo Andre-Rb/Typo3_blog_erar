@@ -1,0 +1,43 @@
+
+<table class="tx-blog-erar" >
+	<tr>
+		<td>
+			<f:translate key="tx_blogerar_domain_model_post.title" />
+		</td>
+		<td>
+		{post.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_blogerar_domain_model_post.publication_date" />
+		</td>
+		<td>
+		{post.publicationDate -> f:format.date()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_blogerar_domain_model_post.summary" />
+		</td>
+		<td>
+		{post.summary}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_blogerar_domain_model_post.content" />
+		</td>
+		<td>
+		{post.content}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_blogerar_domain_model_post.image" />
+		</td>
+		<td>
+				<f:image src="{post.image.originalResource.publicUrl}" width="200"/>
+		</td>
+	</tr>
+</table>

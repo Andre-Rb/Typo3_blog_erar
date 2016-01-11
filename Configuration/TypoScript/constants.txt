@@ -1,0 +1,15 @@
+
+plugin.tx_blogerar_pluginerar {
+	view {
+		# cat=plugin.tx_blogerar_pluginerar/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:blog_erar/Resources/Private/Templates/
+		# cat=plugin.tx_blogerar_pluginerar/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:blog_erar/Resources/Private/Partials/
+		# cat=plugin.tx_blogerar_pluginerar/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:blog_erar/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_blogerar_pluginerar//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
